@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Proyecto2_DefaultSharedPreferences</string>
+    <string name="menu_delete">delete</string>
+    <string name="menu_setting">setting</string>
+
+    <string name="tit_conf_relax">Relax:</string>
+    <string name="key_descansar">key_descansar</string>
+    <string name="tit_descansar">Descansar</string>
+    <string name="sum_descansar">Frecuencia de recordamiento</string>
+    <string name="dgt_descansar">Recordar tomar un descanso</string>
+    <string name="key_alarma">key_alarma</string>
+    <string name="tit_alarma">Nombre alarma</string>
+    <string name="sum_alarma">Nombre recordatorio alarma</string>
+    <string name="dgt_alarma">Nombre recordatorio alarma</string>
+
+    <string name="tit_conf_pantalla">Pantalla:</string>
+    <string name="key_pantalla">key_pantalla</string>
+    <string name="tit_pantalla">Apagar pantalla</string>
+    <string name="sum_pantalla">Minutos para apagar la pantalla</string>
+    <string name="dgt_pantalla">Apagar Pantalla</string>
+    <string name="def_pantalla">Nunca</string>
+    <string name="key_fuente">key_fuente</string>
+    <string name="tit_fuente">Tamaño fuente</string>
+    <string name="sum_fuente">Establezca el tamaño de la fuente</string>
+    <string name="key_modo">key_modo</string>
+    <string name="def_modo">false</string>
+
+    <string name="tit_conf_conexiones">Conexiones:</string>
+    <string name="key_datos">key_datos</string>
+    <string name="tit_datos">Limitar el uso de datos móviles</string>
+    <string name="sum_datos">Envío de vídeo HD sobre Wi-Fi</string>
+    <string name="dgt_datos">Uso de datos móviles</string>
+    <string name="key_descarga">key_descarga</string>
+    <string name="tit_descarga">Descagar vídeo</string>
+    <string name="sum_descarga">Especifica la calidad de las descargas</string>
+    <string name="dgt_descarga">Descarga de video</string>
+    <string name="key_restrictivo">key_restrictivo</string>
+    <string name="tit_restrictivo">Modo restrictivo</string>
+    <string name="sum_restrictivo">El modo restrictivo puede ayudarte a ocultar contenido potencialmente sensible</string>
+    <string name="key_estadisticas">key_estadisticas</string>
+    <string name="tit_estadisticas">Habilitar estadisticas de uso</string>
+
+    <string name="original">Original</string>
+    <string name="def_alarma">a descansar!</string>
+</resources>

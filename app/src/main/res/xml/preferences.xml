@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/tit_conf_relax">
+
+        <ListPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue=" "
+            android:dialogTitle="@string/dgt_descansar"
+            android:entries="@array/descansar_entries"
+            android:entryValues="@array/descansar_values"
+            android:key="@string/key_descansar"
+            android:summary="@string/sum_descansar"
+            android:title="@string/tit_descansar" />
+        <EditTextPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="@string/def_alarma"
+            android:key="@string/key_alarma"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/sum_alarma"
+            android:title="@string/tit_alarma" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:key="@string/key_pantalla"
+        android:title="@string/tit_conf_pantalla">
+
+        <ListPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="@string/def_pantalla"
+            android:dialogTitle="@string/dgt_pantalla"
+            android:entries="@array/pantalla_entries"
+            android:entryValues="@array/pantalla_values"
+            android:key="@string/key_pantalla"
+            android:summary="@string/sum_pantalla"
+            android:title="@string/tit_pantalla" />
+
+        <SeekBarPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="@integer/def_fuente"
+            android:key="@string/key_fuente"
+            android:summary="@string/sum_fuente"
+            android:title="@string/tit_fuente" />
+    </PreferenceCategory>
+</PreferenceScreen>

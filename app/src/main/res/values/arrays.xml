@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="descansar_entries">
+        <item>1 hora</item>
+        <item>2 horas</item>
+        <item>5 horas</item>
+        <item>8 horas</item>
+    </string-array>
+    <string-array name="descansar_values">
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="pantalla_entries">
+        <item>1 min</item>
+        <item>5 min</item>
+        <item>30 min</item>
+        <item>@string/def_pantalla</item>
+    </string-array>
+    <string-array name="pantalla_values">
+        <item>1</item>
+        <item>5</item>
+        <item>30</item>
+        <item>@integer/def_pantalla</item>
+    </string-array>
+
+    <string-array name="datos_entries">
+        <item>Sólo con Wi-Fi</item>
+        <item>Sólo en red de datos</item>
+        <item>En cualquier red</item>
+    </string-array>
+
+    <string-array name="video_entries">
+        <item>360p</item>
+        <item>480p</item>
+        <item>720p</item>
+        <item>@string/original</item>
+    </string-array>
+
+    <string-array name="video_values">
+        <item>360</item>
+        <item>480</item>
+        <item>720</item>
+        <item>1080</item>
+    </string-array>
+
+</resources>

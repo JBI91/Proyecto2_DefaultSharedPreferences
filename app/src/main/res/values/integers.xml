@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="def_pantalla">0</integer>
+    <integer name="def_fuente">10</integer>
+    <integer name="max_fuente">20</integer>
+    <integer name="min_fuente">1</integer>
+</resources>
